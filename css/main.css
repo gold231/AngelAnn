@@ -1,0 +1,37 @@
+.shopmenu {
+    color: #000;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 16px;
+    display: inline-block;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    text-decoration: none;
+    font-weight: 600;
+}
+.shopdiv {
+    position: unset !important;    
+}
+.header .show {
+    background-color: #0f1d41;
+}
+.show .shopmenu {
+    color: white;
+}
+.shopdropdown {
+    transform: unset !important;
+    width: 100%;
+    top: 85px !important;
+    background-color: #3a4562 !important;
+}
+.shopitem {    
+    color: #ffffff !important;
+}
+.shopitem:hover {
+    background-color: #000000 !important;
+}
+@media screen and (max-width: 576px) {
+    .shopdropdown {
+        top: 340px !important;
+    }
+}
